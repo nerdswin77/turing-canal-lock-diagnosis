@@ -1,0 +1,39 @@
+schema_version = "1.4"
+artifacts = ["/root/results/solver.py"]
+
+[task]
+name = "turing/canal-lock-diagnosis"
+description = "Build a reusable solver that diagnoses the loading rules, blocked valves, shortened chambers, slow crews and waiting time of a chain of canal locks from offset-biased, coarse-resolution, unlabeled logger readings."
+version = "1.0.0"
+keywords = ["operations-research", "canal-locks", "lockage-scheduling", "discrete-event-simulation", "inverse-problems", "fault-diagnosis"]
+
+[metadata]
+domain = "mathematical-sciences"
+category = "operations-research"
+subcategory = "Canal lock chain fault diagnosis"
+reward_type = "binary"
+source = "Written by PhD annotators"
+public_overlap = "None"
+
+
+[verifier]
+timeout_sec = 3600
+environment_mode = "separate"
+network_mode = "no-network"
+
+
+[verifier.environment]
+network_mode = "no-network"
+cpus = 2
+memory_mb = 4096
+
+
+[agent]
+timeout_sec = 18000
+network_mode = "public"
+
+[environment]
+cpus = 2
+memory_mb = 4096
+storage_mb = 10240
+network_mode = "public"
