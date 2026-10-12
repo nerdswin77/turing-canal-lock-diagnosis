@@ -1,0 +1,138 @@
+{
+  "canals": {
+    "A1": {
+      "loading": {
+        "5": "LARGEST"
+      },
+      "valve": {
+        "0": 120,
+        "11": 140
+      },
+      "gate": {
+        "4": 10
+      },
+      "crew": {
+        "8": 3
+      },
+      "wait": 6,
+      "lost_readings": [
+        [
+          11,
+          71
+        ]
+      ]
+    },
+    "A2": {
+      "loading": {
+        "3": "FIRST_FIT"
+      },
+      "valve": {
+        "1": 110,
+        "7": 110
+      },
+      "gate": {
+        "5": 30
+      },
+      "crew": {
+        "6": 1
+      },
+      "wait": 6,
+      "lost_readings": [
+        [
+          6,
+          5
+        ]
+      ]
+    },
+    "A3": {
+      "loading": {
+        "0": "LIFO",
+        "6": "LIFO",
+        "8": "LARGEST"
+      },
+      "valve": {
+        "11": 150
+      },
+      "gate": {
+        "1": 40
+      },
+      "crew": {},
+      "wait": 14,
+      "lost_readings": [
+        [
+          6,
+          2
+        ],
+        [
+          8,
+          94
+        ]
+      ]
+    },
+    "A4": {
+      "loading": {
+        "0": "LIFO",
+        "4": "SMALLEST",
+        "11": "SMALLEST"
+      },
+      "valve": {},
+      "gate": {
+        "8": 10
+      },
+      "crew": {
+        "2": 4
+      },
+      "wait": 8,
+      "lost_readings": [
+        [
+          7,
+          4
+        ]
+      ]
+    },
+    "A5": {
+      "loading": {
+        "3": "LARGEST",
+        "6": "SMALLEST",
+        "10": "SMALLEST"
+      },
+      "valve": {
+        "4": 150
+      },
+      "gate": {},
+      "crew": {
+        "7": 3
+      },
+      "wait": 8,
+      "lost_readings": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          79
+        ],
+        [
+          7,
+          33
+        ]
+      ]
+    },
+    "A6": {
+      "loading": {
+        "5": "LARGEST",
+        "6": "LARGEST",
+        "8": "LIFO",
+        "10": "LARGEST"
+      },
+      "valve": {
+        "3": 130
+      },
+      "gate": {},
+      "crew": {},
+      "wait": 6,
+      "lost_readings": []
+    }
+  }
+}
